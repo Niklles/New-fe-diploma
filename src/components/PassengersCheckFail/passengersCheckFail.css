@@ -1,0 +1,21 @@
+.passengers-check_fail {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  width: 100%;
+
+  padding: 37px 31px 37px 23px;
+
+  background-color: rgba(255, 61, 0, 0.38);
+}
+
+.passengers-check__wrapper_fail {
+  font-weight: 400;
+  font-size: 18px;
+  color: #292929;
+}
+
+.passengers-check__current-example {
+  font-weight: 700;
+}

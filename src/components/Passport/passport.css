@@ -1,0 +1,36 @@
+.passport__column {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.passport__label {
+  font-weight: 400;
+  font-size: 16px;
+  color: #928f94;
+}
+
+.passport__input {
+  max-width: 205px;
+
+  padding: 10px 16px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+
+  font-weight: 400;
+  font-size: 24px;
+  color: #292929;
+  letter-spacing: 14px;
+}
+
+.passport__input_invalid {
+  border-color: transparent;
+
+  outline: 2px solid red;
+}
+
+.passport__input::placeholder {
+  font-size: 40px;
+  color: #c4c4c4;
+  letter-spacing: 12px;
+}

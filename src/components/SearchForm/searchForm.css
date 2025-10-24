@@ -1,0 +1,86 @@
+.search-form {
+  padding: 79px 21px 52px;
+
+  background: rgba(41, 41, 41, 0.8);
+}
+
+.search-form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+
+  margin-bottom: 96px;
+}
+
+.search-form__fieldset {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 300;
+  font-size: 30px;
+  color: #fff;
+}
+
+.search-form__legend {
+  padding-left: 7px;
+  padding-bottom: 13px;
+}
+
+.search-form__destination {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.search-form__swap {
+  width: 24px;
+  height: 24px;
+
+  background-image: url("../../assets/swap.svg");
+}
+
+.search-form__swap:hover {
+  background-image: url("../../assets/swap-active.svg");
+}
+
+.search-form__swap:hover {
+  cursor: pointer;
+}
+
+.search-form__date {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.search-form__btn {
+  margin-left: auto;
+  padding: 16px 68px;
+  border-radius: 5px;
+
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #292929;
+
+  background-color: #ffa800;
+}
+
+.search-form__btn:focus,
+.search-form__btn:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.search-form__btn:active {
+  border: 1px solid #ffa800;
+  color: #ffa800;
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 992px) {
+  .search-form__btn {
+    margin-right: auto;
+  }
+}

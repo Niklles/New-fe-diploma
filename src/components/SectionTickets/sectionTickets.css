@@ -1,0 +1,16 @@
+.tickets {
+  padding-bottom: 144px;
+}
+
+.tickets__list {
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+
+  margin-bottom: 142px;
+}
+
+.tickets__empty {
+  font-size: 30px;
+  color: #3e3c41;
+}
