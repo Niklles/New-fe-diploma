@@ -15,6 +15,7 @@ build: off # отключение встроенной в appveyor систем�
 
 build_script:
   - npm run build # сборка проекта
+  - ls -R dist
 
 test_script:
   - npm run lint # скрипт тестирования
